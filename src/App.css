@@ -1,0 +1,30 @@
+#root {
+  width: 100vw;
+  height: 100svh;
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 3rem 1rem 3rem 1rem;
+  text-align: center;
+  background: aquamarine;
+
+}
+
+p {
+  color: #333333;
+  font-weight: bold  ;
+  font-size: 1.5rem;
+}
+
+.shell {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+
+
+
+
+
+
+
