@@ -1,11 +1,12 @@
 import "./Card.css"
 
-function Card({source,translate}) {
+function Card({ source, translation, showTranslation, toggleTranslation }) {
+
     return(
         <>
-            <div className={"card"}>
+            <div onClick={toggleTranslation} className={"card"}>
                 <p>{source}</p>
-                <p>{translate}</p>
+                {showTranslation && <p>{translation}</p>}
             </div>
         </>
     )
