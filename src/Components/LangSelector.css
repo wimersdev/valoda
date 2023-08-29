@@ -1,10 +1,21 @@
 .lang-shell {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5625rem;
+    align-self: stretch;
 }
 
 .lang-btn {
+    display: flex;
     padding: 1rem;
-    border-radius: 0.25rem;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 0.75rem;
+    border: 1px solid #7E49FF;
+    background: transparent;
+    color: #7E49FF;
+    font-weight: 700;
+    font-size: 1.25;
 }

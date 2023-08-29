@@ -41,7 +41,7 @@ function App() {
     return (
         <>
             <div className={"shell"}>
-                <LangSelector setDirection={setDirection}/>
+
 
                 {direction === "LV" && <Card
                     source={words[randomWord]?.source}
@@ -55,6 +55,8 @@ function App() {
                     showTranslation={showTranslation}
                     toggleTranslation={toggleTranslation}
                 />}
+
+                <LangSelector setDirection={setDirection}/>
 
 
 
