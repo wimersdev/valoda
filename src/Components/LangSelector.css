@@ -1,0 +1,10 @@
+.lang-shell {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.lang-btn {
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
